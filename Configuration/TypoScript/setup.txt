@@ -1,0 +1,8 @@
+# ------------------------------------------------------------------------------
+# Add CleverPush trackingcode
+# ------------------------------------------------------------------------------
+plugin.tx_cleverpush {
+	settings {
+		subdomain = {$plugin.tx_cleverpush.settings.subdomain}
+	}
+}

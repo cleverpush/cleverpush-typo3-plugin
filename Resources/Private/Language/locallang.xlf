@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-12-14T13:07:39Z" product-name="cleverpush">
+		<header/>
+		<body>
+			<trans-unit id="settings.subdomain" xml:space="preserve">
+                <source>This is the subdomain from your CleverPush channel.</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>
