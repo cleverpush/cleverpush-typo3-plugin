@@ -3,6 +3,6 @@
 # ------------------------------------------------------------------------------
 plugin.tx_cleverpush {
 	settings {
-		subdomain = {$plugin.tx_cleverpush.settings.subdomain}
+		channelId = {$plugin.tx_cleverpush.settings.channelId}
 	}
 }

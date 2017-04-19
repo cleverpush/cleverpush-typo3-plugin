@@ -3,9 +3,9 @@
     <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-12-14T13:07:39Z" product-name="cleverpush">
         <header/>
         <body>
-			<trans-unit id="settings.subdomain" xml:space="preserve">
-                <source>This is the subdomain from your CleverPush channel.</source>
-                <target>Hier kommt die Subdomain ihres CleverPush Kanals hin.</target>
+			<trans-unit id="settings.channelId" xml:space="preserve">
+                <source>This is the ID from your CleverPush channel.</source>
+                <target>Hier kommt die ID Ihres CleverPush Kanals hinein.</target>
             </trans-unit>
 		</body>
     </file>

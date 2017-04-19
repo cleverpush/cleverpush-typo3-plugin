@@ -42,13 +42,20 @@ class PageRenderer
         if (TYPO3_MODE === 'FE') {
             // Get plugin config
             $conf = $GLOBALS['TSFE']->tmpl->setup['plugin.']['tx_cleverpush.']['settings.'];
-            if (!empty($conf['subdomain'])) {
+            if (!empty($conf['channelId'])) {
+                $scriptTag = '<script src="https://static.cleverpush.com/sdk/cleverpush.js" async></script>' .
+                    LF . '<script>' .
+                    LF . 'CleverPush = window.CleverPush || [];' .
+                    LF . 'CleverPush.push([\'init\', { channelId: \'' . $conf['channelId'] . '\' }]);' .
+                    LF . '</script>';
+                $pObj->addFooterData($scriptTag);
+            } else if (!empty($conf['subdomain'])) {
+                // support old code if channelId was not set, yet
                 $scriptTag = '<script>' .
                     LF . '(function(c,l,v,r,p,s,h){c[\'CleverPushObject\']=p;c[p]=c[p]||function(){(c[p].q=c[p].q||[]).push(arguments)},c[p].l=1*new Date();s=l.createElement(v),h=l.getElementsByTagName(v)[0];s.async=1;s.src=r;h.parentNode.insertBefore(s,h)})(window,document,\'script\',\'//' . $conf['subdomain'] . '.cleverpush.com/loader.js\',\'cleverpush\');' .
                     LF . 'cleverpush(\'triggerOptIn\');' .
                     LF . 'cleverpush(\'checkNotificationClick\');' .
                     LF . '</script>';
-                // Add code to header
                 $pObj->addFooterData($scriptTag);
             }
         }

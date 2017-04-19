@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------------------
 plugin.tx_cleverpush {
 	settings {
-		# cat=CleverPush//1; type=string; label=LLL:EXT:cleverpush/Resources/Private/Language/locallang.xlf:settings.subdomain
-		subdomain = 
+		# cat=CleverPush//1; type=string; label=LLL:EXT:cleverpush/Resources/Private/Language/locallang.xlf:settings.channelId
+		channelId =
 	}
 }

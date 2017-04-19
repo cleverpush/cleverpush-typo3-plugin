@@ -8,13 +8,13 @@
 .. _start:
 
 =============================================================
-cookieconsent2
+cleverpush
 =============================================================
 
 .. only:: html
 
 	:Extension key:
-		cookieconsent2
+		cleverpush
 
 	:Version:
 		|release|
@@ -23,22 +23,22 @@ cookieconsent2
 		en
 
 	:Description:
-		TYPO Extension to include Cookie Consent, a lightweight JavaScript plugin for alerting users about the use of cookies on your website.
+		TYPO Extension to include CleverPush code.
 
 	:Keywords:
-		cookies, consent, law, eu cookie law, javascript
+		cleverpush
 
 	:Copyright:
-		2015
+		2017
 
 	:Author:
-		Morton Jonuschat, Gute Botschafter GmbH
+		CleverPush
 
 	:Email:
-		m.jonuschat@gute-botschafter.de
+		support@cleverpush.com
 
 	:License:
-		This document is published under the Open Content License available from http://www.opencontent.org/opl.shtml
+		MIT (modified)
 
 	:Rendered:
 		|today|
