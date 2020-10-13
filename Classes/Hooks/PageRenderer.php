@@ -41,7 +41,7 @@ class PageRenderer
     {
         if (TYPO3_MODE === 'FE') {
             // Get plugin config
-            $conf = $GLOBALS['TSFE']->tmpl->setup['plugin.']['tx_cleverpush.']['settings.'];
+            $conf = $GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['cleverpush'];
             if (!empty($conf['channelId'])) {
                 $scriptTag = '<script src="https://static.cleverpush.com/sdk/cleverpush.js" async></script>' .
                     LF . '<script>' .
