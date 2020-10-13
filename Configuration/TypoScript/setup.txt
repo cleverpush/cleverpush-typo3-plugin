@@ -1,8 +1,0 @@
-# ------------------------------------------------------------------------------
-# Add CleverPush trackingcode
-# ------------------------------------------------------------------------------
-plugin.tx_cleverpush {
-	settings {
-		channelId = {$plugin.tx_cleverpush.settings.channelId}
-	}
-}
