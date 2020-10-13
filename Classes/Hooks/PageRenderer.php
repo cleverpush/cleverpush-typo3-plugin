@@ -43,7 +43,7 @@ class PageRenderer
             // Get plugin config
             $conf = $GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['cleverpush'];
             if (!empty($conf['channelId'])) {
-                $scriptTag = '<script src="https://static.cleverpush.com/channel/loader/' . $conf['channelId'] . '.js" async></script>' .
+                $scriptTag = '<script src="https://static.cleverpush.com/channel/loader/' . $conf['channelId'] . '.js" async></script>';
                 $pObj->addFooterData($scriptTag);
             }
         }
