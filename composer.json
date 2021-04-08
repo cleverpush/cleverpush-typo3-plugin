@@ -1,0 +1,11 @@
+{
+    "name": "marius/cleverpush-typo3-plugin",
+    "type": "library",
+    "authors": [
+        {
+            "name": "CleverPush",
+            "email": "support@cleverpush.com"
+        }
+    ],
+    "require": {}
+}
