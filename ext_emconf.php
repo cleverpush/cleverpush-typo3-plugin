@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'title' => 'CleverPush',
 	'description' => 'Includes the CleverPush Opt-In code on your website.',
 	'category' => 'fe',
-	'version' => '0.0.4',
+	'version' => '1.0.0',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -28,7 +28,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'lockType' => '',
 	'author' => 'CleverPush Team',
 	'author_email' => 'support@cleverpush.com',
-	'author_company' => 'Just Viral GmbH & Co. KG',
+	'author_company' => 'CleverPush GmbH',
 	'constraints' =>
     [
         'depends' => [
