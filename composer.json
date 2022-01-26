@@ -1,6 +1,6 @@
 {
     "name": "cleverpush/cleverpush-typo3-plugin",
-    "type": "library",
+    "type": "typo3-cms-extension",
     "authors": [
         {
             "name": "CleverPush",
